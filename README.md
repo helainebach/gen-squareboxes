@@ -1,37 +1,32 @@
-# DoodlePlot
+# SquareBoxes
 
-DoodlePlot is a Pen Plotter Design Generator with radiused corners. It allows you to create intricate designs with various parameters and export them as SVG files.
+This sketch generates designs for a pen plotter using recursive boxes. It allows you to create intricate designs with various parameters and export them as SVG files.
 
 ![Example](ex-build.png)
 
 ## Key Controls
 
 - **T** or **t**: Toggle the display of the parameters panel.
-- **G** or **g**: Generate a new design with random paths.
+- **G** or **g**: Generate a new design with a new color palette.
 - **E** or **e**: Export the current design to an SVG file.
-- **Arrow Up**: Increase grid size (snapping resolution).
-- **Arrow Down**: Decrease grid size (snapping resolution).
+- **Arrow Up**: Increase recursion depth.
+- **Arrow Down**: Decrease recursion depth.
 - **Arrow Left**: Decrease the number of layers.
 - **Arrow Right**: Increase the number of layers.
-- **D** or **d**: Decrease plot density.
-- **I** or **i**: Increase plot density.
-- **L** or **l**: Toggle lead-in lines.
-- **[** or **]**: Decrease or increase the direction change frequency.
-- **S** or **s**: Toggle snap to 90-degree angles.
+- **D** or **d**: Decrease grid size.
+- **I** or **i**: Increase grid size.
 - **C** or **c**: Toggle inverted colors.
-- **Q** or **q**: Decrease draw point frequency.
-- **W** or **w**: Increase draw point frequency.
+- **+**: Increase leaf probability.
+- **-**: Decrease leaf probability.
 
 ## Features
 
 - **Grid Size**: Adjust the grid size for snapping resolution.
 - **Layers**: Control the number of layers in the design.
-- **Plot Density**: Modify the density of the plot.
-- **Direction Change Frequency**: Change how often the direction changes.
-- **Draw Point Frequency**: Adjust the frequency of draw points.
-- **Snap to 90-degree Angles**: Toggle snapping to 90-degree angles.
+- **Recursion Depth**: Adjust the depth of recursion.
+- **Leaf Probability**: Modify the probability of a box being a leaf.
 - **Inverted Colors**: Toggle between normal and inverted colors.
-- **Lead-in Lines**: Toggle lead-in lines for the design.
+- **Parameters Panel**: Toggle the display of the parameters panel.
 
 ## Installation
 

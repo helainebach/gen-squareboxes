@@ -1,5 +1,5 @@
 /**
- * Recursive Box Design
+ * SquareBoxes
  *
  * This sketch generates designs for a pen plotter using recursive boxes.
  * 
